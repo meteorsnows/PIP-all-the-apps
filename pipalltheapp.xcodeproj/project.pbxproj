@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021522231FB424ED00816AD1 /* PipMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 021522221FB424ED00816AD1 /* PipMenuButton.m */; };
+		0215222B1FB4367A00816AD1 /* PipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 021522271FB4367A00816AD1 /* PipWindow.m */; };
+		0215222C1FB4367A00816AD1 /* PipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 021522291FB4367A00816AD1 /* PipView.m */; };
+		0241CD511FC1559800640BF1 /* RegionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0241CD4F1FC1559800640BF1 /* RegionWindowController.m */; };
+		0241CD521FC1559800640BF1 /* RegionWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0241CD501FC1559800640BF1 /* RegionWindowController.xib */; };
+		0241CD551FC1652100640BF1 /* RegionSelectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0241CD541FC1652100640BF1 /* RegionSelectableView.m */; };
+		024A1EB01FB13C1800FEFA5E /* WindowInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 024A1EAF1FB13C1800FEFA5E /* WindowInfo.m */; };
+		02B212CD1FAF8B3600293197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B212CC1FAF8B3600293197 /* AppDelegate.m */; };
+		02B212CF1FAF8B3600293197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B212CE1FAF8B3600293197 /* Assets.xcassets */; };
+		02B212D21FAF8B3600293197 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B212D01FAF8B3600293197 /* MainMenu.xib */; };
+		02B212D51FAF8B3600293197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B212D41FAF8B3600293197 /* main.m */; };
+		02B212E01FAF919D00293197 /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B212DF1FAF919D00293197 /* MainMenuController.m */; };
+		02B212E71FAF943B00293197 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B212E51FAF943B00293197 /* PreferencesWindowController.m */; };
+		02B212E81FAF943B00293197 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B212E61FAF943B00293197 /* PreferencesWindowController.xib */; };
+		02B212EF1FAFA6A000293197 /* PipWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B212ED1FAFA6A000293197 /* PipWindowController.m */; };
+		02B212F01FAFA6A000293197 /* PipWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B212EE1FAFA6A000293197 /* PipWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021522211FB424ED00816AD1 /* PipMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PipMenuButton.h; sourceTree = "<group>"; };
+		021522221FB424ED00816AD1 /* PipMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PipMenuButton.m; sourceTree = "<group>"; };
+		021522271FB4367A00816AD1 /* PipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PipWindow.m; sourceTree = "<group>"; };
+		021522281FB4367A00816AD1 /* PipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PipView.h; sourceTree = "<group>"; };
+		021522291FB4367A00816AD1 /* PipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PipView.m; sourceTree = "<group>"; };
+		0215222A1FB4367A00816AD1 /* PipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PipWindow.h; sourceTree = "<group>"; };
+		0241CD4E1FC1559800640BF1 /* RegionWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionWindowController.h; sourceTree = "<group>"; };
+		0241CD4F1FC1559800640BF1 /* RegionWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionWindowController.m; sourceTree = "<group>"; };
+		0241CD501FC1559800640BF1 /* RegionWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegionWindowController.xib; sourceTree = "<group>"; };
+		0241CD531FC1652100640BF1 /* RegionSelectableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionSelectableView.h; sourceTree = "<group>"; };
+		0241CD541FC1652100640BF1 /* RegionSelectableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionSelectableView.m; sourceTree = "<group>"; };
+		024A1EAE1FB13C1800FEFA5E /* WindowInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowInfo.h; sourceTree = "<group>"; };
+		024A1EAF1FB13C1800FEFA5E /* WindowInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowInfo.m; sourceTree = "<group>"; };
+		026FA5DE1FB2D62C005F65B2 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		02B212C81FAF8B3600293197 /* pipalltheapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pipalltheapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B212CB1FAF8B3600293197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02B212CC1FAF8B3600293197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02B212CE1FAF8B3600293197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B212D11FAF8B3600293197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		02B212D31FAF8B3600293197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B212D41FAF8B3600293197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02B212D61FAF8B3600293197 /* pipalltheapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pipalltheapp.entitlements; sourceTree = "<group>"; };
+		02B212DE1FAF919D00293197 /* MainMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuController.h; sourceTree = "<group>"; };
+		02B212DF1FAF919D00293197 /* MainMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
+		02B212E41FAF943B00293197 /* PreferencesWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		02B212E51FAF943B00293197 /* PreferencesWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		02B212E61FAF943B00293197 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
+		02B212EC1FAFA6A000293197 /* PipWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PipWindowController.h; sourceTree = "<group>"; };
+		02B212ED1FAFA6A000293197 /* PipWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PipWindowController.m; sourceTree = "<group>"; };
+		02B212EE1FAFA6A000293197 /* PipWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PipWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B212C51FAF8B3600293197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021522241FB435F900816AD1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				024A1EAE1FB13C1800FEFA5E /* WindowInfo.h */,
+				024A1EAF1FB13C1800FEFA5E /* WindowInfo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		021522251FB4361A00816AD1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				02B212DE1FAF919D00293197 /* MainMenuController.h */,
+				02B212DF1FAF919D00293197 /* MainMenuController.m */,
+				02B212EC1FAFA6A000293197 /* PipWindowController.h */,
+				02B212ED1FAFA6A000293197 /* PipWindowController.m */,
+				02B212E41FAF943B00293197 /* PreferencesWindowController.h */,
+				02B212E51FAF943B00293197 /* PreferencesWindowController.m */,
+				0241CD4E1FC1559800640BF1 /* RegionWindowController.h */,
+				0241CD4F1FC1559800640BF1 /* RegionWindowController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		021522261FB4363C00816AD1 /* custom view */ = {
+			isa = PBXGroup;
+			children = (
+				021522281FB4367A00816AD1 /* PipView.h */,
+				021522291FB4367A00816AD1 /* PipView.m */,
+				0215222A1FB4367A00816AD1 /* PipWindow.h */,
+				021522271FB4367A00816AD1 /* PipWindow.m */,
+				021522211FB424ED00816AD1 /* PipMenuButton.h */,
+				021522221FB424ED00816AD1 /* PipMenuButton.m */,
+				0241CD531FC1652100640BF1 /* RegionSelectableView.h */,
+				0241CD541FC1652100640BF1 /* RegionSelectableView.m */,
+			);
+			name = "custom view";
+			sourceTree = "<group>";
+		};
+		024A1EB31FB16DF400FEFA5E /* Other files */ = {
+			isa = PBXGroup;
+			children = (
+				02B212D61FAF8B3600293197 /* pipalltheapp.entitlements */,
+				02B212D31FAF8B3600293197 /* Info.plist */,
+				02B212D41FAF8B3600293197 /* main.m */,
+			);
+			name = "Other files";
+			sourceTree = "<group>";
+		};
+		0274108C1FB56892007F215B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				021522261FB4363C00816AD1 /* custom view */,
+				02B212D01FAF8B3600293197 /* MainMenu.xib */,
+				02B212EE1FAFA6A000293197 /* PipWindowController.xib */,
+				02B212E61FAF943B00293197 /* PreferencesWindowController.xib */,
+				0241CD501FC1559800640BF1 /* RegionWindowController.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		02B212BF1FAF8B3600293197 = {
+			isa = PBXGroup;
+			children = (
+				02B212CA1FAF8B3600293197 /* pipalltheapp */,
+				02B212C91FAF8B3600293197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B212C91FAF8B3600293197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B212C81FAF8B3600293197 /* pipalltheapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B212CA1FAF8B3600293197 /* pipalltheapp */ = {
+			isa = PBXGroup;
+			children = (
+				026FA5DE1FB2D62C005F65B2 /* Constant.h */,
+				021522241FB435F900816AD1 /* model */,
+				021522251FB4361A00816AD1 /* controller */,
+				0274108C1FB56892007F215B /* view */,
+				02B212CB1FAF8B3600293197 /* AppDelegate.h */,
+				02B212CC1FAF8B3600293197 /* AppDelegate.m */,
+				02B212CE1FAF8B3600293197 /* Assets.xcassets */,
+				024A1EB31FB16DF400FEFA5E /* Other files */,
+			);
+			path = pipalltheapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B212C71FAF8B3600293197 /* pipalltheapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B212D91FAF8B3600293197 /* Build configuration list for PBXNativeTarget "pipalltheapp" */;
+			buildPhases = (
+				02B212C41FAF8B3600293197 /* Sources */,
+				02B212C51FAF8B3600293197 /* Frameworks */,
+				02B212C61FAF8B3600293197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pipalltheapp;
+			productName = pipalltheapp;
+			productReference = 02B212C81FAF8B3600293197 /* pipalltheapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B212C01FAF8B3600293197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = jerome;
+				TargetAttributes = {
+					02B212C71FAF8B3600293197 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 02B212C31FAF8B3600293197 /* Build configuration list for PBXProject "pipalltheapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B212BF1FAF8B3600293197;
+			productRefGroup = 02B212C91FAF8B3600293197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B212C71FAF8B3600293197 /* pipalltheapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B212C61FAF8B3600293197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B212F01FAFA6A000293197 /* PipWindowController.xib in Resources */,
+				0241CD521FC1559800640BF1 /* RegionWindowController.xib in Resources */,
+				02B212CF1FAF8B3600293197 /* Assets.xcassets in Resources */,
+				02B212E81FAF943B00293197 /* PreferencesWindowController.xib in Resources */,
+				02B212D21FAF8B3600293197 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B212C41FAF8B3600293197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B212D51FAF8B3600293197 /* main.m in Sources */,
+				0241CD511FC1559800640BF1 /* RegionWindowController.m in Sources */,
+				02B212CD1FAF8B3600293197 /* AppDelegate.m in Sources */,
+				02B212EF1FAFA6A000293197 /* PipWindowController.m in Sources */,
+				02B212E71FAF943B00293197 /* PreferencesWindowController.m in Sources */,
+				0215222B1FB4367A00816AD1 /* PipWindow.m in Sources */,
+				0215222C1FB4367A00816AD1 /* PipView.m in Sources */,
+				02B212E01FAF919D00293197 /* MainMenuController.m in Sources */,
+				0241CD551FC1652100640BF1 /* RegionSelectableView.m in Sources */,
+				024A1EB01FB13C1800FEFA5E /* WindowInfo.m in Sources */,
+				021522231FB424ED00816AD1 /* PipMenuButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02B212D01FAF8B3600293197 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B212D11FAF8B3600293197 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B212D71FAF8B3600293197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02B212D81FAF8B3600293197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02B212DA1FAF8B3600293197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pipalltheapp/pipalltheapp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = pipalltheapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.gangneux.pipalltheapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		02B212DB1FAF8B3600293197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pipalltheapp/pipalltheapp.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = pipalltheapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.gangneux.pipalltheapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B212C31FAF8B3600293197 /* Build configuration list for PBXProject "pipalltheapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B212D71FAF8B3600293197 /* Debug */,
+				02B212D81FAF8B3600293197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B212D91FAF8B3600293197 /* Build configuration list for PBXNativeTarget "pipalltheapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B212DA1FAF8B3600293197 /* Debug */,
+				02B212DB1FAF8B3600293197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B212C01FAF8B3600293197 /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="xx5-AW-sKg" customClass="MainMenuController">
+            <connections>
+                <outlet property="appMenu" destination="tqh-kr-GcO" id="EK5-uD-WqA"/>
+                <outlet property="loadingMenuItem" destination="C5C-ez-mYW" id="e8L-uX-TR1"/>
+            </connections>
+        </customObject>
+        <menu id="tqh-kr-GcO">
+            <items>
+                <menuItem title="Loading window list..." tag="1" enabled="NO" id="C5C-ez-mYW">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="zxl-pV-z4y"/>
+                <menuItem title="Click through" id="1Rc-rC-Fc0">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="clickThroughAction:" target="xx5-AW-sKg" id="wcd-Rz-Np6"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="eUh-C1-HzC"/>
+                <menuItem title="Preferences..." id="LPY-x7-egg">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="preferencesAction:" target="xx5-AW-sKg" id="3Zf-Zo-oVT"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="G3b-4N-BMf">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitAction:" target="xx5-AW-sKg" id="unM-wI-6iG"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="131.5" y="165.5"/>
+        </menu>
+    </objects>
+</document>
